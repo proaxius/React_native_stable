@@ -1,14 +1,35 @@
-# nativeWeb
-REACTNATIVE with WEB support
-this repo is open to use but please read all points below i am going to discuss some problems
-1. Code base is not stable
-2. some native component are not compatible with React-Dom , which makes me wonder why I was trying to work wit react-native for crossplatform development
-3. seting up for web and mobile is a complex process cause I don't know what is happening under the hood
-4. using expo can be good but expo has some of it's own issues, it file management is mess some times we need to unlink whole project modules and then comes 
- the army of unknown things and also it makes very hard to manage the files and packages, Most of the time you end up with conflicting packages and if you update 
- the project or nom packages then it's a complete mess, 
-5.  If you are really good with react-native core-components you will manage the whole mess but i wanted a platform where setting things up is likeplug and play i want more time 
-   developing than solving project module and conflicting problems
-6.  Using this Tempalte is a go to , there are some issues I will reslve them 
-7.  for the time being i am going to use React-native for apps and reactjs for my website
-8.  Thankyou
+this repo was created from Nativeweb repo so there aresome packages that can be removed i was trying to create a new project and that just didnt work and i was really have tried lik emost of the wasy and it didnt work 
+so just use somethiong which works , here goes all the pckg versions
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.11",
+    "react-native-web": "^0.19.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@svgr/webpack": "^8.0.1",
+    "@tsconfig/react-native": "^2.0.2",
+    "@types/jest": "^29.2.1",
+    "@types/react": "^18.0.24",
+    "@types/react-test-renderer": "^18.0.0",
+    "ajv": "^8.12.0",
+    "babel-jest": "^29.2.1",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-react-native-web": "^0.19.4",
+    "eslint": "^8.19.0",
+    "html-webpack-plugin": "^5.5.3",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "0.73.10",
+    "prettier": "^2.4.1",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "18.2.0",
+    "typescript": "4.8.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
